@@ -1,0 +1,17 @@
+{
+    "name": "thusitha/template-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thusitha\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Thusitha\\TemplateInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.3.0",
+        "composer/composer": "^2.5.0"
+    }
+}
